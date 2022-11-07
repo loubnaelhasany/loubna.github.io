@@ -1,0 +1,162 @@
+body 
+{   display: flex; /*divisé la page en bloc flexible*/
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+} 
+h1 
+{   
+    text-align: center;
+    text-decoration:underline;
+} 
+div.cnt 
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 20px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.cnt .right
+{
+    position:relative;
+    background-color: white ;
+    padding: 40px;
+}
+    
+.cnt .left 
+{
+    position: relative;
+    background-color: rgb(188, 152, 147) ;
+    padding: 40px;
+}
+     
+.cnt .left .prfl
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(190, 136, 154, 0.865);
+}
+    
+.img 
+{
+float: center;
+width: 300px;
+height:300px;
+}
+    
+.prfl h2
+{
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+h2
+{ 
+    text-decoration: underline;
+}
+
+    
+.lg h4
+{
+    color: rgba(190, 136, 154, 0.865);
+}
+    
+    
+.lg .titlelg
+{
+    color: rgba(190, 136, 154, 0.865);
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+    
+.op .titleop
+{
+    color: rgba(190, 136, 154, 0.865);
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+    
+.autre .titleaut
+{
+    color: rgba(190, 136, 154, 0.865);
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+    
+.ct .titlect
+{
+    color: rgba(190, 136, 154, 0.865);
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+    
+.fd .titlefd
+{
+    color: rgba(190, 136, 154, 0.865);
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+    
+    
+ 
+
+    
+.op 
+{
+    margin-bottom: 50px;	
+}
+    
+    
+.autre ul
+{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);/*donne une structure des case employé dans l'exemple*/
+}
+
+.autre ul li
+{
+    list-style: none;
+    font-weight: 500;
+    margin: 10px 0;
+}
+    
+.ct ul li
+{
+    list-style: none;
+}
+    
+.fd ul li
+{
+    list-style: none;
+}
+    
+.footer ul
+{
+    display:grid;/*donne des grille*/
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+        
+}
+    
+.lg .percent 
+{
+    font-size: 14px;
+}
+    
+.left input[type="text"]
+{
+    background-color : rgb(202, 197, 197); /*coleur de la case input*/
+    color: black;
+}
